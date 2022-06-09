@@ -245,32 +245,43 @@
 /* Наші клієнти */
 
 .clients {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $white-cl;
+
+  @media screen and (min-width:1200px){
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: $white-cl;
 }
-
+}
 .clients__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   font-weight: 700;
   font-size: 28px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 
   color: $black-cl;
 
   @media screen and (min-width:1200px) {
     font-size: 36px;
      line-height: 1.16;
+     margin-bottom: 50px;
   }
 }
 
 .clients__list {
-  display: flex;
+
+  @media screen and (min-width:1200px) {
+display: flex;
   align-items: center;
   justify-content: center;
 }
+  }
+  
 
 .clients__item {
   margin-right: 30px;
