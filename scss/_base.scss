@@ -1,0 +1,46 @@
+
+  $milk-cl: #E5E5E5;
+  $blue-cl: #2196F3;
+  $grey-cl: #757575;
+  $black-cl: #212121;
+  $white-cl: #FFFFFF;
+  $bgk-btn: #F5F4FA;
+  $white-grey: #AFB1B8;
+  $dark-blue-cl:#188CE8;
+
+body {
+  font-family: 'Roboto',
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: $grey-cl;
+  background-color: $milk-cl;
+}
+
+/* Скидання всіх відступів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Атрибути головного контейнеру сайту */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
