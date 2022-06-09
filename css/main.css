@@ -559,7 +559,8 @@ ul {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .specifics__item {
-    width: 50%;
+    width: calc((100% - 2 * 60px) / 2);
+    margin-left: 30px;
   }
 }
 
@@ -580,10 +581,22 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 30px;
-  width: 270px;
+  max-width: 450px;
   height: 120px;
   border-radius: 4px;
   background-color: #F5F4FA;
+}
+
+@media creen and (min-width: 760px) {
+  .specifics__img {
+    width: 354px;
+  }
+}
+
+@media creen and (min-width: 1200px) {
+  .specifics__img {
+    width: 270px;
+  }
 }
 
 .specifics__title {

@@ -70,10 +70,11 @@
 }
 
 .specifics__list {
+
   @media screen and (min-width:768px) and (max-width:1199px){
     display: flex;
-    flex-wrap: wrap;
-  }
+    flex-wrap: wrap;}
+
     @media screen and (min-width:1200px){
   display: flex;
   & .specifics__item+.specifics__item {
@@ -81,8 +82,11 @@
 }
 }
 .specifics__item {
+
   @media screen and (min-width:768px) and (max-width:1199px) {
-    width: 50%;
+    width: calc((100% - 2 * 60px) / 2);
+    margin-left: 30px;
+   
 
   }
 @media screen and (min-width:1200px){
@@ -90,14 +94,21 @@
 }
 
 .specifics__img {
-  display: flex;
+    display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  width: 270px;
+  max-width: 450px;
   height: 120px;
   border-radius: 4px;
   background-color: $bgk-btn;
+
+  @media creen and (min-width:760px) {
+    width: 354px;
+  }
+  @media creen and (min-width:1200px) {
+    width: 270px;
+  }
 }
 
 .specifics__title {
