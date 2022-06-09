@@ -587,15 +587,15 @@ ul {
   background-color: #F5F4FA;
 }
 
-@media creen and (min-width: 760px) {
+@media screen and (min-width: 760px) {
   .specifics__img {
-    width: 354px;
+    max-width: 354px;
   }
 }
 
-@media creen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .specifics__img {
-    width: 270px;
+    max-width: 270px;
   }
 }
 
@@ -675,9 +675,17 @@ ul {
 
 /* наша команда */
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #F5F4FA;
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+  }
 }
 
 .team__list {
