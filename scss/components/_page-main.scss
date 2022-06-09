@@ -59,21 +59,34 @@
 
 /* секція особливості */
 
+.section-specifics {
+ background-color: $white-cl; 
+ padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width:1200px) {
+  padding-top: 94px;
+  padding-bottom: 94px;}
+}
+
 .specifics__list {
+  @media screen and (min-width:768px) and (max-width:1199px){
+    display: flex;
+    flex-wrap: wrap;
+  }
+    @media screen and (min-width:1200px){
   display: flex;
   & .specifics__item+.specifics__item {
   margin-left: 30px;}
 }
-
-.section-specifics {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: $white-cl;
 }
-
 .specifics__item {
-  display: block;
-  width: 270px;
+  @media screen and (min-width:768px) and (max-width:1199px) {
+    width: 50%;
+
+  }
+@media screen and (min-width:1200px){
+  width: 270px;}
 }
 
 .specifics__img {
@@ -100,6 +113,10 @@
 /* Наші послуги */
 
 .poslygi {
+  @media screen and (max-width:1199px){
+    display: none;
+  }
+
   padding-bottom: 94px;
   background-color: $white-cl;
   position: relative;

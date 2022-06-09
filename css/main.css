@@ -523,25 +523,50 @@ ul {
 }
 
 /* секція особливості */
-.specifics__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.specifics__list .specifics__item + .specifics__item {
-  margin-left: 30px;
-}
-
 .section-specifics {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.specifics__item {
-  display: block;
-  width: 270px;
+@media screen and (min-width: 1200px) {
+  .section-specifics {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .specifics__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .specifics__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .specifics__list .specifics__item + .specifics__item {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .specifics__item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .specifics__item {
+    width: 270px;
+  }
 }
 
 .specifics__img {
@@ -575,6 +600,12 @@ ul {
   padding-bottom: 94px;
   background-color: #FFFFFF;
   position: relative;
+}
+
+@media screen and (max-width: 1199px) {
+  .poslygi {
+    display: none;
+  }
 }
 
 .poslygi__title {
