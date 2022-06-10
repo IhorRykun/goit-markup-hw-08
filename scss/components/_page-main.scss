@@ -219,7 +219,7 @@
 
 .team__list {
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width:768px) and (max-width:1199px){
     display: flex;
     flex-wrap: wrap;
     margin:-15px;
@@ -240,9 +240,10 @@
   background-color: $white-cl;
   
 
-  @media screen and (min-width: 768px) {
-    box-sizing: calc((100%-2 *30px)/2);
+  @media screen and (min-width: 768px) and (max-width:1199px){
     margin:15px;
+    flex-basis: calc((100%-60px)/2);
+
   }
 }
 .tim-overlay {
