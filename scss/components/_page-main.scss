@@ -216,7 +216,6 @@
   line-height: 1.16;}
 }
 
-
 .team__list {
 
   @media screen and (min-width:768px) and (max-width:1199px){
@@ -252,18 +251,9 @@ margin:-15px;
     }
   }
 .tim-overlay {
-max-width:450px;
+max-width:270px;
   padding-top: 30px;
   padding-bottom: 30px;
-
-@media screen and (min-width:768px) {
-  width:354px;
-}
-
-  @media screen and (min-width:1200px){
- width: 270px;}
-
-
 }
 
 .tim-overlay__title {
