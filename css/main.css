@@ -353,12 +353,23 @@ img {
 }
 
 /* силки хедеру */
-.link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .link {
+    display: block;
+    padding: 5px 0;
+    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .list-force .carent {
@@ -386,8 +397,16 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container-navigation,
+  .navigation {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .mail-nav {
-    margin-left: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -401,6 +420,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding: 21px 0;
   }
 }
 
