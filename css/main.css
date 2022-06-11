@@ -768,10 +768,38 @@ img {
   }
 }
 
+.team__img {
+  width: 450px;
+}
+
+@media screen and (min-wdith: 768px) {
+  .team__img {
+    width: 354px;
+  }
+}
+
+@media screen and (min-widht: 1200px) {
+  .team__img {
+    widht: 270px;
+  }
+}
+
 .tim-overlay {
-  max-width: 270px;
   padding-top: 30px;
   padding-bottom: 30px;
+  max-width: 450px;
+}
+
+@media screen and (min-width: 768px) {
+  .tim-overlay {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .tim-overlay {
+    width: 270px;
+  }
 }
 
 .tim-overlay__title {

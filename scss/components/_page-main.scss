@@ -250,10 +250,31 @@ margin:-15px;
       width: calc((100% - 120px)/ 4);
     }
   }
+
+  .team__img {
+    width: 450px;
+
+    @media screen and (min-wdith:768px) {
+      width:354px;
+    }
+
+    @media screen and (min-widht:1200px) {
+      widht:270px;
+    }
+  }
+
 .tim-overlay {
-max-width:270px;
-  padding-top: 30px;
+    padding-top: 30px;
   padding-bottom: 30px;
+  max-width:450px;
+
+ @media screen and (min-width:768px) {
+width:354px;
+ }
+
+  @media screen and (min-width:1200px) {
+  width:270px;}
+
 }
 
 .tim-overlay__title {
