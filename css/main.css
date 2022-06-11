@@ -1071,7 +1071,7 @@ img {
   margin: -30px;
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .div-portfolio-item {
     margin: 0;
   }
