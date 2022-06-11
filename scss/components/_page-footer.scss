@@ -4,8 +4,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2F303A;
+  @media screen and (min-width:768px) and (max-width:1199px){
+  height:463px;
 }
-
+}
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -30,10 +32,17 @@
 }
 
 .container-footer--flex {
-  
   display: flex;
   flex-direction: column;
   align-items:center;
+
+  @media screen and (min-width:768px) and (max-width:1199px) {
+      display:flex;
+      flex-direction: row;
+      align-items:baseline; 
+      justify-content: space-around;
+     position: relative;
+    }
 
   @media screen and (min-width:1200px) {
         flex-direction: row;
