@@ -458,12 +458,14 @@ flex-wrap: wrap;
 /* Картки портфоліо */
 
 .div-portfolio-item {
-  display: flex;
+
+  @media screen and (min-width:768px){
+    display: flex;
   flex-wrap: wrap;
-margin:-30px;
+margin:-30px;}
 
   @media screen and (min-width:1200px){
-  margin:0;}
+  margin:-15px;}
 }
 
 .lst-portfolio {
@@ -481,19 +483,15 @@ margin:-30px;
 }
 
 .lst-portfolio-itm {
-  margin-right: 30px;
-  margin-bottom: 30px;
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width:768px) and (max-width:1199px) {
       margin: 15px;
      flex-basis: calc((100% - 2 * 30px) / 2);
   }
 
   @media screen and (min-width:1200px){
-     &:nth-child(3n) {
-  margin-right: 0;}
-&:nth-last-child(-n+3) {
-  margin-bottom: 0;}
+  margin:15px;
+     flex-basis: calc((100% - 3 * 30px) / 3);
   }
 }
 
