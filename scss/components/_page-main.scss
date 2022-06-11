@@ -392,8 +392,12 @@ flex-wrap: wrap;
 /* сторінка портфоліо */
 
 .portfolio-section {
+  padding-top: 60px;
+  padding-bottom:60px;
+
+  @media screen and (min-wdith:1200px) {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 94px;}
 }
 
 .main-portfolio {
@@ -432,13 +436,23 @@ flex-wrap: wrap;
 }
 
 .list-itm-portfolio {
+   margin-bottom:34px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-basis: calc((100 - 2 * 8px) / 3);
+
+
+
+  @media screen and (min-width:768px) {
   display: flex;
   margin-bottom: 50px;
-  justify-content: center;
+  justify-content: center;}
 }
 
 .portfolio-batn {
   margin-left: 8px;
+  @media screen and (max-width:767px) {
+margin-bottom: 16px;}
 }
 
 .list a {
