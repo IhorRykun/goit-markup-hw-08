@@ -1028,6 +1028,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: -30px;
 }
 
 .lst-portfolio {
@@ -1037,10 +1038,6 @@ img {
 .portfolio__link {
   display: block;
   max-height: 100%;
-}
-
-.portfolio__img {
-  display: block;
 }
 
 .card-list {
