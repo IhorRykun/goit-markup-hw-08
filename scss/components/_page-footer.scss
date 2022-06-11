@@ -19,9 +19,9 @@
 }
 
 .footer-logo--padding {
-  @media screen and (max-width:767px){
+  @media screen and (max-width:1199px){
   padding-left:36px;
-}
+  }
 }
 .footer-logo-adress {
   margin-right: 70px;
@@ -71,7 +71,7 @@
 
 .footer__list {
 
-  @media screen and (max-width:767px){
+  @media screen and (max-width:1199px){
    padding-left: 36px;
   margin-bottom: 60px;}
 
@@ -84,6 +84,7 @@
 .svg-footer-socsety {
   @media screen and (max-width:768px){
       margin-left:0px;
+
   }
   @media screen and (min-width:1200px){
       margin-left: 50px;

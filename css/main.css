@@ -1542,7 +1542,7 @@ img {
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-logo--padding {
     padding-left: 36px;
   }
@@ -1618,7 +1618,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer__list {
     padding-left: 36px;
     margin-bottom: 60px;
@@ -1691,6 +1691,18 @@ img {
   margin-left: 70px;
 }
 
+@media screen and (max-width: 767px) {
+  .title-btn-footer {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .title-btn-footer {
+    margin-left: 44px;
+  }
+}
+
 .btn-footer-form {
   width: 200px;
   height: 50px;
@@ -1717,6 +1729,12 @@ img {
   border: none;
   cursor: pointer;
   border-color: #188CE8;
+}
+
+@media screen and (max-width: 767px) {
+  .btn-footer-form {
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1749,7 +1767,7 @@ img {
 }
 
 .input-footer {
-  width: 100%;
+  width: 454px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1787,11 +1805,15 @@ img {
 @media screen and (min-width: 1200px) {
   .input-footer {
     width: 358px;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .container-form-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1799,6 +1821,10 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
   }
 }
 
@@ -1826,11 +1852,24 @@ img {
   }
 }
 
-.form-footer {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 60px;
+@media screen and (max-width: 767px) {
+  .form-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1838,6 +1877,7 @@ img {
     position: absolute;
     top: 130px;
     left: 220px;
+    margin-top: 70px;
   }
 }
 
