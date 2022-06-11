@@ -385,15 +385,35 @@ img {
   display: flex;
 }
 
-.mail-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mail-nav {
+    margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
-.mail-nav .site-nav + .site-nav {
-  margin-left: 50px;
+@media screen and (min-width: 1200px) {
+  .mail-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+  }
+  .mail-nav .site-nav + .site-nav {
+    margin-left: 50px;
+  }
 }
 
 .svg-header {

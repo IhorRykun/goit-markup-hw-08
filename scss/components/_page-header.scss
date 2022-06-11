@@ -30,10 +30,18 @@
 }
 
 .mail-nav {
-  display: flex;
+
+  @media screen and (min-width:768px) and (max-width:1199px){
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+justify-content: space-between; }
+  @media screen and (min-width:1200px) {
+    display: flex;
    margin-left: auto;
   & .site-nav+.site-nav {
-  margin-left: 50px;}
+  margin-left: 50px;}}
 }
 
 .svg-header {
