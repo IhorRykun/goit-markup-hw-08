@@ -1618,7 +1618,7 @@ img {
   }
 }
 
-@media screen and (max-width: 11px) {
+@media screen and (max-width: 1199px) {
   .footer__list {
     padding-left: 36px;
     margin-bottom: 60px;
