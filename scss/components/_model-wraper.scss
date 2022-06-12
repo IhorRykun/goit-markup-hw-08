@@ -30,7 +30,7 @@
   padding-left: auto;
   padding-right: auto;
   transform: translate(-50%, -50%) scale(1.0);
-  width: 450px;
+  max-width: 450px;
     background-color: $white-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
