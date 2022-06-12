@@ -1160,11 +1160,22 @@ img {
       flex-wrap: wrap;
 }
 
+.lst-portfolio-itm {
+  margin-bottom: 15px;
+}
+
+.lst-portfolio-itm:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .lst-portfolio-itm {
     margin: 15px;
     -ms-flex-preferred-size: calc((100% - 2 * 30px) / 2);
         flex-basis: calc((100% - 2 * 30px) / 2);
+  }
+  .lst-portfolio-itm:last-child {
+    margin-bottom: 0;
   }
 }
 

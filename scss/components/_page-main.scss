@@ -522,10 +522,18 @@ margin:-30px;}
 }
 
 .lst-portfolio-itm {
+margin-bottom: 15px;
+ &:last-child {
+      margin-bottom: 0;
+     }
 
   @media screen and (min-width:768px) and (max-width:1199px) {
       margin: 15px;
      flex-basis: calc((100% - 2 * 30px) / 2);
+     &:last-child {
+      margin-bottom: 0;
+     }
+     
   }
 
   @media screen and (min-width:1200px){
