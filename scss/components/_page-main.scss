@@ -1,16 +1,36 @@
 /* мейн-контент */
 
 .main {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: #2F303A;
+    background-color: #2F303A;
   background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/title/herov.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+    padding-top: 118px;
+  padding-bottom: 118px;
+
+  @media screen and (min-width:1200px){
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 }
 
 .main__title {
+  @media screen and (max-width:1199px) {
+  max-width: 360px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $white-cl;}
+
+
+  @media screen and (min-width:1200px) {
   width: 696px;
   padding-bottom: 30px;
   margin-right: auto;
@@ -21,7 +41,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: $white-cl;
+  color: $white-cl;}
 }
 
 /* конопка мейна */
@@ -60,7 +80,7 @@
 /* секція особливості */
 
 .section-specifics {
- background-color: $white-cl; 
+   background-color: $white-cl; 
  padding-top: 60px;
   padding-bottom: 60px;
 
@@ -263,7 +283,7 @@ margin:-15px;
     }
 
     @media screen and (min-widht:1200px) {
-      widht:270px;
+      width:270px;
     }
   }
 
