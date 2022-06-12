@@ -76,7 +76,6 @@
 }
 }
 
-
 /* секція особливості */
 
 .section-specifics {
@@ -237,8 +236,8 @@
 }
 
 .team__list {
-
-  margin-bottom:-15px;
+&.team__item:nth-child(n + 3) {
+      margin-bottom: 0;}
 
   @media screen and (min-width:768px) and (max-width:1199px){
     display: flex;
@@ -267,7 +266,7 @@ margin:-15px;
   
   @media screen and (min-width: 768px) and (max-width:1199px){
     margin:15px;
-    width: calc((100% - 60px)/ 2);
+    width: calc((100% - 60px) / 2);
   }
     @media screen and (min-width:1200px) {
       margin:15px;
@@ -293,7 +292,7 @@ margin:-15px;
   max-width:450px;
 
  @media screen and (min-width:768px) {
-width:354px;
+max-width:354px;
  }
 
   @media screen and (min-width:1200px) {
@@ -495,7 +494,6 @@ margin-bottom: 16px;}
   color: $black-cl;
 }
 
-
 /* Картки портфоліо */
 
 .div-portfolio-item {
@@ -578,7 +576,6 @@ margin:-30px;}
   display: block;
   max-width: 100%;
 }
-
 
 .text-overlay {
   position: absolute;

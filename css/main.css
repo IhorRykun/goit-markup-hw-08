@@ -89,7 +89,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace,
+ SFMono-Regular,
+ Consolas,
+ 'Liberation Mono',
+ Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -263,7 +268,8 @@ summary {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',
+ sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -788,7 +794,6 @@ img {
 }
 
 .team__list {
-  margin-bottom: -15px;
   margin: -15px;
 }
 
@@ -800,6 +805,7 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: -15px;
+    
   }
 }
 
@@ -824,7 +830,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team__item {
     margin: 15px;
-    width: calc((100% - 60px)/ 2);
+    width: calc((100% - 60px) / 2);
   }
 }
 
@@ -859,7 +865,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .tim-overlay {
-    width: 354px;
+    max-width: 354px;
   }
 }
 
