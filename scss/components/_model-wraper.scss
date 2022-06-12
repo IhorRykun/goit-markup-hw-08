@@ -22,9 +22,6 @@
 /* Модельне вікно */
 
 .model-wraper {
-  @media screen and (max-width:767px) {
-  max-width: 450px;}
-
    position: absolute;
   top: 50%;
   left: 50%;
@@ -35,6 +32,9 @@
   width: 450px;
     background-color: $white-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   @media screen and (max-width:1199px) {
+  max-width: 450px;}
 
   @media screen and (min-wdith:1200px){
   width: 528px;}
