@@ -531,6 +531,9 @@ margin:-30px;}
   @media screen and (min-width:1200px){
   margin:15px;
      flex-basis: calc((100% - 3 * 30px) / 3);
+     &:nth-child(n+7) { 
+  margin-bottom: 0px;
+}
   }
 }
 

@@ -1174,6 +1174,9 @@ img {
     -ms-flex-preferred-size: calc((100% - 3 * 30px) / 3);
         flex-basis: calc((100% - 3 * 30px) / 3);
   }
+  .lst-portfolio-itm:nth-child(n+7) {
+    margin-bottom: 0px;
+  }
 }
 
 .lst-portfolio-itm:hover .after-description::before,
