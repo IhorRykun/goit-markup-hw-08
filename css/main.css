@@ -456,8 +456,14 @@ img {
   height: 4px;
   background: #2196F3;
   border-radius: 2px;
-  bottom: 0;
+  bottom: -34px;
   left: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .carent::after {
+    bottom: 0;
+  }
 }
 
 /* Силки конатків навігації */
