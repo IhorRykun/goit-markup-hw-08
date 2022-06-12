@@ -89,12 +89,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace,
- SFMono-Regular,
- Consolas,
- 'Liberation Mono',
- Menlo,
- monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -268,8 +263,7 @@ summary {
 }
 
 body {
-  font-family: 'Roboto',
- sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -828,7 +822,7 @@ img {
 
 @media screen and (min-widht: 1200px) {
   .team__img {
-    width: 270px;
+    widht: 270px;
   }
 }
 
@@ -1048,20 +1042,21 @@ img {
   display: block;
 }
 
-.list-itm-portfolio {
-  margin-bottom: 34px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-preferred-size: calc((100% - 3 * 8px) / 3);
-      flex-basis: calc((100% - 3 * 8px) / 3);
-}
-
-.list-itm-portfolio .list-itm-portfolio.portfolio-batn:last-child {
-  margin-right: 0;
-  margin-bottom: 0;
+@media screen and (max-width: 767px) {
+  .list-itm-portfolio {
+    margin-bottom: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-preferred-size: calc((100% - 3 * 8px) / 3);
+        flex-basis: calc((100% - 3 * 8px) / 3);
+  }
+  .list-itm-portfolio .portfolio-batn:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {

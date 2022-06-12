@@ -436,14 +436,14 @@ flex-wrap: wrap;
 }
 
 .list-itm-portfolio {
-
- .list-itm-portfolio.portfolio-batn:last-child { 
+@media screen and (max-width:767px) {
+ .portfolio-batn:last-child { 
     margin-right: 0;
 margin-bottom: 0; }
    margin-bottom:34px;
  display: flex;
  flex-wrap: wrap;
- flex-basis: calc((100% - 3 * 8px) / 3);
+ flex-basis: calc((100% - 3 * 8px) / 3);}
 
   @media screen and (min-width:768px) {
   display: flex;
