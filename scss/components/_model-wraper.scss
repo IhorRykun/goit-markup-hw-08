@@ -23,16 +23,19 @@
 
 /* Модельне вікно */
 .model-wraper {
-  position: absolute;
+   position: absolute;
   top: 50%;
   left: 50%;
   padding: 40px;
   padding-left: auto;
   padding-right: auto;
   transform: translate(-50%, -50%) scale(1.0);
-  width: 528px;
-  background-color: $white-cl;
+  width: 450px;
+    background-color: $white-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-wdith:1200px){
+  width: 528px;}
 }
 
 .title-form-back-drop {
