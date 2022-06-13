@@ -49,6 +49,7 @@
   padding: 0;
   border:none;
   background-color:transparent;
+  z-index: 100;
 
   &:hover,
   &:focus {
@@ -91,7 +92,7 @@ color: #757575;
 .menu-container {
   display: none;
   position: absolute;
-  top:100%;
+  top:0;
   left:0;
   width: 100%;
   max-height: 796px;
@@ -147,7 +148,9 @@ color: #2196F3;
 
 .container-navigation {
   @media screen and (max-width: 767px){
+    padding: 15px;
     padding-right: 0;
+  
   }
 }
 
