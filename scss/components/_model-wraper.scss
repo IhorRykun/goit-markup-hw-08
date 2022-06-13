@@ -66,6 +66,9 @@ cursor: pointer;
 }
 /* ікнока в імпутах врапера */
 
+.svg-btn-close {
+  z-index: 10;
+}
 .form-wraper-swg {
   position: absolute;
   top: -6px;
