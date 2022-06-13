@@ -41,8 +41,9 @@
 
 .menu-button {
   position:absolute;
-  top:0;
-  right:0;
+  top:15px;
+  right:11px;
+  transform: translate(-15%, -11%);
   display: inline-flex;
   margin: 0;
   padding: 0;
@@ -123,6 +124,14 @@ color: #2196F3;
   display: flex;
   @media screen and (min-width:768px) and (max-width:1199px) {
     justify-content: space-between;
+  }
+}
+
+.container-navigation {
+  @media screen and (max-width: 767px){
+    padding:16px 15px;
+    padding-right: 0;
+
   }
 }
 

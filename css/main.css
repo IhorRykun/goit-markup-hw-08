@@ -410,8 +410,10 @@ img {
 
 .menu-button {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 15px;
+  right: 11px;
+  -webkit-transform: translate(-15%, -11%);
+          transform: translate(-15%, -11%);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -503,6 +505,13 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container-navigation {
+    padding: 16px 15px;
+    padding-right: 0;
   }
 }
 
