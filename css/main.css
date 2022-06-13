@@ -1333,7 +1333,7 @@ img {
   }
 }
 
-@media screen and (min-wdith: 1200px) {
+@media screen and (min-width: 1200px) {
   .model-wraper {
     width: 528px;
   }
