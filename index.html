@@ -24,20 +24,34 @@
           <li class="site-nav"><a class="link" href="./portfolio.html">Портфолио</a></li>
           <li class="site-nav"><a class="link" href="#Контакти">Контакты</a></li>
         </ul>
-        <button type="button" class="menu-button is-open" data-menu-button
-        aria-expanded="false"
-        aria-controls="menu-container">
-          <svg width="40" height="40" 
-          aria-label="переключатель мобильного меню">
-          <use class="icon-cross" a href="./images/sprite.svg#icon-close_40px"></use>
-            <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
-          </svg>   
-        </button>
-        <div class="menu-container is-open" id="menu-container" data-menu>
-          меню
+        <div class="container-mobile__menu">
+          <button type="button" class="menu-button is-open" data-menu-button aria-expanded="false"
+            aria-controls="menu-container">
+            <svg width="40" height="40" aria-label="переключатель мобильного меню">
+              <use class="icon-cross" a href="./images/sprite.svg#icon-close_40px"></use>
+              <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="menu-container is-open" id="menu-container" data-menu>
+            <ul>
+              <li> <a href="./index.html">Студия</a></li>
+              <li> <a href="./portfolio.html">Портфолио</a></li>
+              <li><a href="#Контакти">Контакты</a></li>
+            </ul>
+            <ul>
+              <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+            <ul class="mobile-menu-soce__link">
+              <li><a href="https://www.instagram.com/">Instagram</a></li>
+              <li><a href="https://twitter.com/">Twitter</a></li>
+              <li><a href="https://www.facebook.com/">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+            </ul>
+            <div class="back-drop is-hidden">
+        
+            </div>
         </div>
-        <div class="back-drop">
-
       </nav>
       <ul class="mail-nav">
         <li class="site-nav"><a class="force-contact link" href="mailto:info@devstudio.com"><svg class="svg-header"
