@@ -67,6 +67,25 @@
   display: none;
 }
 
+.menu-container__link-telephone {
+  text-decoration: none;
+font-weight: 500;
+font-size: 34px;
+line-height: 1.18;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+.menu-container__link-address {
+  text-decoration: none;
+font-weight: 500;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
 // контейнер мобільного меню
 
 .menu-container {
@@ -76,9 +95,8 @@
   left:0;
   width: 100%;
   max-height: 796px;
-  text-align: center;
   padding: 48px 40px;
-  background-color:$white-cl;
+  background-color:#fff;
 
   &.is-open {
     display: block;
@@ -129,9 +147,7 @@ color: #2196F3;
 
 .container-navigation {
   @media screen and (max-width: 767px){
-    padding:16px 15px;
     padding-right: 0;
-
   }
 }
 
