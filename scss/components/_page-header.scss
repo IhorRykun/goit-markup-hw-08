@@ -2,6 +2,7 @@
 .header {
   border-bottom: 1px solid #ececec;
   background-color: $white-cl;
+   position: relative;
 }
 
 /* силки хедеру */
@@ -23,10 +24,54 @@
 }
 
 .header-navigation {
+  @media screen and (max-width:767px) {
+    display: none;
+  }
   display: flex;
   & .site-nav+.site-nav {
   margin-left: 50px;
 }
+}
+// меню для мобільної версії
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border:none;
+  background-color:transparent;
+
+  &:hover,
+  &:focus {
+    fill:$blue-cl;
+  }
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+// контейнер мобільного меню
+
+.menu-container {
+  display: none;
+  position: absolute;
+  top:100%;
+  left:0;
+  width: 100%;
+  text-align: center;
+  padding: 48px 40px;
+  background-color:$white-cl;
+
+  &.is-open {
+    display: block;
+  }
 }
 
 .container-navigation,
@@ -36,15 +81,12 @@
   @media screen and (min-width:768px) and (max-width:1199px) {
     justify-content: space-between;
   }
-  
-}
-.container-navigation {
-  @media screen and (max-width:767px){
-  display:none;
-}
 }
 
 .mail-nav {
+  @media screen and (max-width:767px) {
+    display: none;
+  }
 
   @media screen and (min-width:768px) and (max-width:1199px){
     display: flex;

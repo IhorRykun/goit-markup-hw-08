@@ -350,6 +350,7 @@ img {
 .header {
   border-bottom: 1px solid #ececec;
   background-color: #FFFFFF;
+  position: relative;
 }
 
 /* силки хедеру */
@@ -382,8 +383,55 @@ img {
   display: flex;
 }
 
+@media screen and (max-width: 767px) {
+  .header-navigation {
+    display: none;
+  }
+}
+
 .header-navigation .site-nav + .site-nav {
   margin-left: 50px;
+}
+
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button:hover, .menu-button:focus {
+  fill: #2196F3;
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.menu-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 48px 40px;
+  background-color: #FFFFFF;
+}
+
+.menu-container.is-open {
+  display: block;
 }
 
 .container-navigation,
@@ -406,7 +454,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .container-navigation {
+  .mail-nav {
     display: none;
   }
 }
