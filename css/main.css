@@ -337,9 +337,18 @@ img {
   text-decoration: none;
 }
 
-.logo-header {
-  color: #212121;
-  margin-right: 70px;
+@media screen and (max-width: 767px) {
+  .logo-header {
+    color: #212121;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-header {
+    color: #212121;
+    margin-right: 70px;
+  }
 }
 
 .footer-logo-adress {
@@ -400,6 +409,9 @@ img {
 }
 
 .menu-button {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -431,6 +443,7 @@ img {
   top: 100%;
   left: 0;
   width: 100%;
+  max-height: 796px;
   text-align: center;
   padding: 48px 40px;
   background-color: #FFFFFF;
@@ -440,10 +453,38 @@ img {
   display: block;
 }
 
-.mobile-menu-soce__link {
+.menu-container__link-navigation {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-container__item {
+  padding: 0;
+}
+
+.menu-container__item:hover .menu-container__link-navigation,
+.menu-container__item:focus .menu-container__link-navigation {
+  color: #2196F3;
+}
+
+.mobile-menu-soce__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mobile-menu-soce__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .container-navigation,
