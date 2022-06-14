@@ -527,6 +527,7 @@ img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  max-width: 356px;
 }
 
 .mobile-menu-soce__item {
