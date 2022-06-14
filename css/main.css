@@ -524,8 +524,17 @@ img {
       justify-content: space-around;
 }
 
+.mobile-menu-soce__item {
+  margin-right: 20px;
+}
+
+.mobile-menu-soce__item:last-child {
+  margin-right: 0;
+}
+
 .mobile-menu-soce__link {
   text-decoration: none;
+  position: relative;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
@@ -553,7 +562,10 @@ img {
 }
 
 .mobile-menu-soce__before::before {
-  content: "";
+  content: " ";
+  position: absolute;
+  top: 10px;
+  left: 86px;
   display: block;
   width: 22px;
   height: 0px;
