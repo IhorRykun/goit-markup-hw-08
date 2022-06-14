@@ -184,7 +184,7 @@ color: #2196F3;
 }
 
 // біфор для силок навігації мобільного меню
-.mobile-menu-soce__before::before {
+.mobile-menu-soce__instagram::before {
   content:" ";
   position: absolute;
       top: 10px;
@@ -194,7 +194,29 @@ color: #2196F3;
 height: 0px;
 border:1px solid rgba(33, 33, 33, 0.2);
 transform: rotate(90deg);
+}
+.mobile-menu-soce__twitter::before {
+  content:" ";
+  position: absolute;
+      top: 10px;
+    left: 60px;
+  display:block;
+  width: 22px;
+height: 0px;
+border:1px solid rgba(33, 33, 33, 0.2);
+transform: rotate(90deg);
+}
 
+.mobile-menu-soce__facebook::before {
+  content:" ";
+  position: absolute;
+      top: 10px;
+    left: -20px;
+  display:block;
+  width: 22px;
+height: 0px;
+border:1px solid rgba(33, 33, 33, 0.2);
+transform: rotate(90deg);
 }
 .container-navigation {
   @media screen and (max-width: 767px){
