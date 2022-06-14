@@ -167,6 +167,15 @@ color: #2196F3;
   }
 }
 
+// біфор для силок навігації мобільного меню
+.mobile-menu-soce__before::before {
+  content:"";
+  display:block;
+  width: 22px;
+height: 0px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+transform: rotate(90deg);
+}
 .container-navigation {
   @media screen and (max-width: 767px){
     padding: 15px;
