@@ -234,7 +234,19 @@
         <h2 class="team__title">Наша команда</h2>
         <ul class="team__list">
           <li class="team__item">
-            <img class="team__img" src="./images/title/ihor-dem.jpg" alt="фото-игорь" width="270" />
+           <picture>
+            <source media="(min-width:1200px)"
+              srcset="./images/title/team/ihor-dem-leptop.jpg 1x, ./images/title/team/ihor-dem-leptop@2x.jpg 2x"
+              type="image/jpg">
+                <source media="(min-width:768px)"
+                  srcset="./images/title/team/ihor-dem-tablet.jpg 1x, ./images/title/team/ihor-dem-tablet@2x.jpg 2x"
+                  type="image/jpg">
+<source media="(max-width:767px)"
+  srcset="./images/title/team/ihor-dem-mobile.jpg 1x, ./images/title/team/ihor-dem-mobile@2x.jpg 2x" type="image/jpg">
+
+             <img class="team__img" src="./images/title/team/ihor-dem.jpg" alt="фото-игорь" width="270"
+               loading="lazy" />
+           </picture>
             <div class="tim-overlay">
               <h3 class="tim-overlay__title">Игорь Демьяненко</h3>
               <p class="tim-overlay__profession">Product Designer</p>
@@ -276,7 +288,19 @@
             </div>
           </li>
           <li class="team__item">
-            <img class="team__img" src="./images/title/olga-rep.jpg" alt="фото-ольга" width="270" />
+            <picture>
+              <source media="(min-width:1200px)"
+                srcset="./images/title/team/olga-rep-leptop.jpg 1x, ./images/title/team/olga-rep-leptop@2x.jpg 2x"
+                type="image/jpg">
+                <source media="(min-width:768px)"
+                  srcset="./images/title/team/olga-rep-tablet.jpg 1x, ./images/title/team/olga-rep-tablet@2x.jpg 2x"
+                  type="image/jpg">
+              <source media="(max-width:767px)"
+                srcset="./images/title/team/olga-rep-mobile.jpg 1x, ./images/title/team/olga-rep-mobile@2x.jpg 2x"
+                type="image/jpg">
+                <img class="team__img" src="./images/title/team/olga-rep.jpg" alt="фото-ольга" width="270"
+                  loading="lazy" />
+            </picture>
             <div class="tim-overlay">
               <h3 class="tim-overlay__title">Ольга Репина</h3>
               <p class="tim-overlay__profession">Frontend Developer</p> 
@@ -318,7 +342,19 @@
             </div>
           </li>
           <li class="team__item">
-            <img class="team__img" src="./images/title/nikola-tar.jpg" alt="фото-николай" width="270" />
+          <picture>
+             <source media="(min-width:1200px)"
+               srcset="./images/title/team/nikola-tar-leptop.jpg 1x, ./images/title/team/nikola-tar-leptop@2x.jpg 2x"
+               type="image/jpg">
+                <source media="(min-width:768px)"
+                  srcset="./images/title/team/nikola-tar-tablet.jpg 1x, ./images/title/team/nikola-tar-tablet@2x.jpg 2x"
+                  type="image/jpg">
+                   <source media="(max-width:767px)"
+                     srcset="./images/title/team/nikola-tar-mobile.jpg 1x, ./images/title/team/nikola-tar-mobile@2x.jpg 2x"
+                     type="image/jpg">
+              <img class="team__img" src="./images/title/team/nikola-tar.jpg" alt="фото-николай" width="270"
+                loading="lazy" />
+          </picture>
             <div class="tim-overlay">
               <h3 class="tim-overlay__title">Николай Тарасов</h3>
               <p class="tim-overlay__profession">Marketing</p> 
@@ -360,7 +396,19 @@
             </div>
           </li>
           <li class="team__item">
-            <img class="team__img" src="./images/title/meh-erm.jpg" alt="фото-михаил" width="270" />
+           <picture>
+            <source media="(mix-width:1200px)"
+              srcset="/images/title/team/meh-erm-leptop.jpg 1x, /images/title/team/meh-erm-leptop@2x.jpg 2x"
+              type="image/jpg">
+            <source media="(min-width:768px)"
+              srcset="/images/title/team/meh-erm-tablet.jpg 1x, /images/title/team/meh-erm-tablet@2x.jpg 2x"
+              type="image/jpg">
+             <source media="(max-width:767px)"
+               srcset="/images/title/team/meh-erm-mobile.jpg 1x, /images/title/team/meh-erm-mobile@2x.jpg 2x"
+               type="image/jpg">
+             <img class="team__img" src="./images/title/team/meh-erm.jpg" alt="фото-михаил" width="270"
+               loading="lazy" />
+           </picture>
             <div class="tim-overlay">
               <h3 class="tim-overlay__title">Михаил Ермаков</h3>
               <p class="tim-overlay__profession">UI Designer</p>
