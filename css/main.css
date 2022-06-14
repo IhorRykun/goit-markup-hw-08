@@ -1105,7 +1105,7 @@ img {
 }
 
 .team__img {
-  max-width: 450px;
+  width: 450px;
 }
 
 @media screen and (min-wdith: 768px) {
