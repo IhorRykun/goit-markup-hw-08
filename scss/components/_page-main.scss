@@ -280,7 +280,7 @@ margin:-15px;
   }
 
   .team__img {
-    width: 450px;
+    max-width: 450px;
 
     @media screen and (min-wdith:768px) {
       width:354px;
