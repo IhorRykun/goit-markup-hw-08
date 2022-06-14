@@ -95,13 +95,22 @@ color: #757575;
   top:0;
   left:0;
   width: 100%;
-  max-height: 796px;
+  height: 796px;
   padding: 48px 40px;
   background-color:#fff;
 
   &.is-open {
     display: block;
   }
+}
+
+.menu-container--fixed {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+.menu-container-address__item {
+  margin-top: auto;
 }
 
 
@@ -124,10 +133,15 @@ color: #212121;
   }
 }
 
-// .menu-container__item--padding {
-//   margin-bottom: 32px;
-//   margin-top:35px;
-// }
+.menu-container__item--padding {
+  margin-bottom: 32px;
+  margin-top:32px;
+}
+
+.menu-container__list-address--padding {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
 
 // соціальні мережі мобільного меню
 .mobile-menu-soce__list {
