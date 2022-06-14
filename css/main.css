@@ -289,7 +289,7 @@ ul {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -735,8 +735,8 @@ img {
 /* мейн-контент */
 .main {
   background-color: #2F303A;
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/title/herov.jpg);
-  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/title/herov.jpg);
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/title/hero/hero.jpg);
+  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/title/hero/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -744,10 +744,47 @@ img {
   padding-bottom: 118px;
 }
 
+@media screen and (min-width: 450px) {
+  .main {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/title/hero/Header-mobile.jpg);
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/title/hero/Header-mobile.jpg);
+  }
+}
+
+@media screen and (min-width: 450px) and (min-device-pixel-ratio: 2), screen and (min-width: 450px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 450px) and (min-resolution: 192dpi), screen and (min-width: 450px) and (min-resolution: 2dppx) {
+  .main {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/title/hero/Header-mobile@2x.jpg);
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/title/hero/Header-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/title/hero/Header-tablet.jpg);
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/title/hero/Header-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .main {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/title/hero/Header-tablet@2x.jpg);
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/title/hero/Header-tablet@2x.jpg);
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .main {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/title/hero/header-leptop.jpg);
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/title/hero/header-leptop.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .main {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/title/hero/header-leptop@2x.jpg);
+    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/title/hero/header-leptop@2x.jpg);
   }
 }
 
@@ -808,6 +845,7 @@ img {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
 
