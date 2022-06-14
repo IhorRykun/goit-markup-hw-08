@@ -484,8 +484,12 @@ img {
   height: 100%;
 }
 
-.menu-container-address__item {
+.menu-container-address__list {
   margin-top: auto;
+}
+
+.menu-container-address__item {
+  width: 100%;
 }
 
 .menu-container__link-navigation {
@@ -512,6 +516,7 @@ img {
 }
 
 .menu-container__list-address--padding {
+  max-width: 231px;
   margin-top: 32px;
   margin-bottom: 64px;
 }
@@ -526,6 +531,7 @@ img {
 
 .mobile-menu-soce__item {
   margin-right: 20px;
+  position: relative;
 }
 
 .mobile-menu-soce__item:last-child {

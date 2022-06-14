@@ -110,10 +110,13 @@ display: flex;
 flex-direction: column;
 height: 100%;
 }
-.menu-container-address__item {
+.menu-container-address__list {
   margin-top: auto;
 }
 
+.menu-container-address__item {
+  width: 100%;
+}
 
 .menu-container__link-navigation {
   text-decoration: none;
@@ -140,6 +143,7 @@ color: #212121;
 }
 
 .menu-container__list-address--padding {
+  max-width: 231px;
   margin-top: 32px;
   margin-bottom: 64px;
 }
@@ -153,6 +157,7 @@ color: #212121;
 
 .mobile-menu-soce__item {
   margin-right: 20px;
+  position: relative;
   &:last-child {
     margin-right:0;
   }
