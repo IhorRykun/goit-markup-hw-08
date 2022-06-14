@@ -461,6 +461,7 @@ img {
 .menu-container {
   display: none;
   position: fixed;
+  overflow-y: scroll;
   top: 0;
   left: 0;
   width: 100%;
@@ -566,6 +567,10 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+}
+
+.container-mobile__menu {
+  z-index: 500;
 }
 
 .mobile-menu-soce__instagram::before {

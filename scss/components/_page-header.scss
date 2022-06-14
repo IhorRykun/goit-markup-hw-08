@@ -93,6 +93,7 @@ color: #757575;
 .menu-container {
   display: none;
   position: fixed;
+  overflow-y: scroll;
   top:0;
   left:0;
   width: 100%;
@@ -181,6 +182,10 @@ color: #2196F3;
   @media screen and (min-width:768px) and (max-width:1199px) {
     justify-content: space-between;
   }
+}
+
+.container-mobile__menu {
+  z-index: 500;
 }
 
 // біфор для силок навігації мобільного меню
