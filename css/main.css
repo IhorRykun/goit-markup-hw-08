@@ -1552,6 +1552,7 @@ img {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow-y: scroll;
+  z-index: 1000;
 }
 
 .back-drop.is-hidden {
