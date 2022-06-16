@@ -1086,7 +1086,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .team__item:not(last-child) {
+  .team__item:last-child {
     margin-bottom: 0;
   }
 }
