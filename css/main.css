@@ -1305,7 +1305,7 @@ img {
   padding-bottom: 60px;
 }
 
-@media screen and (min-wdith: 1200px) {
+@media screen and (min-width: 1200px) {
   .portfolio-section {
     padding-top: 94px;
     padding-bottom: 94px;
