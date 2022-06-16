@@ -2328,7 +2328,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .form-footer {
     position: absolute;
-    top: 130px;
+    top: 109px;
     left: 220px;
     margin-top: 70px;
   }
