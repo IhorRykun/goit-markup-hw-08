@@ -1434,6 +1434,10 @@ img {
   max-height: 100%;
 }
 
+.portfolio__img {
+  width: 100%;
+}
+
 .card-list {
   display: -webkit-box;
   display: -ms-flexbox;
