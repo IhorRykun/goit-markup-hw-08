@@ -2119,6 +2119,12 @@ img {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .list-footer-socsety {
+    margin-left: 0;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .list-footer-socsety {
     margin-bottom: 20px;
