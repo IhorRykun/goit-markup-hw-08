@@ -958,6 +958,12 @@ img {
   color: #212121;
 }
 
+@media screen and (max-width: 767px) {
+  .specifics__title {
+    text-align: center;
+  }
+}
+
 /* Наші послуги */
 .poslygi {
   padding-bottom: 94px;
