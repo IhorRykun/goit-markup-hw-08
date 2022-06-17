@@ -1877,6 +1877,13 @@ img {
           align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+  .team-social__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .team-social__item {
   margin-left: 10px;
   max-width: 450px;

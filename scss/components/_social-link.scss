@@ -1,5 +1,8 @@
 /* соціальні мережі команди */
 .team-social__list {
+  @media screen and (max-width:767px) {
+    flex-wrap: wrap;
+  }
   display: flex;
   justify-content: center;
   align-items: center;
