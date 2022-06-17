@@ -47,6 +47,8 @@
   z-index: 1000;
   cursor: pointer;
   position: relative;
+  top:4px;
+  transform: translateY(-4%);
 
 
   &:hover,
