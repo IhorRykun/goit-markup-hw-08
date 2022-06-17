@@ -2139,12 +2139,12 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 20px;
-  margin-left: 70px;
+  margin-left: 0px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .title-btn-footer {
-    margin-left: 0;
+    margin-left: 70px;
   }
 }
 
@@ -2244,7 +2244,7 @@ img {
 @media screen and (min-width: 768px) {
   .input-footer {
     width: 454px;
-    margin-left: -58px;
+    margin-left: -54px;
   }
 }
 
