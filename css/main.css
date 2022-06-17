@@ -414,9 +414,9 @@ img {
   z-index: 1000;
   cursor: pointer;
   position: relative;
-  top: 6px;
-  -webkit-transform: translateY(-6%);
-          transform: translateY(-6%);
+  top: 8px;
+  -webkit-transform: translateY(-8%);
+          transform: translateY(-8%);
 }
 
 .menu-button:hover, .menu-button:focus {
@@ -2176,14 +2176,14 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .title-btn-footer {
-    margin-left: 70px;
+    margin-left: 100px;
   }
 }
 
 .btn-footer-form {
   width: 200px;
   height: 50px;
-  margin-left: 70px;
+  margin-left: 100px;
   padding-left: 29px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -2276,7 +2276,7 @@ img {
 @media screen and (min-width: 768px) {
   .input-footer {
     width: 454px;
-    margin-left: -54px;
+    margin-left: -22px;
   }
 }
 
