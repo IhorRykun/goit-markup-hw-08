@@ -1970,12 +1970,6 @@ img {
   background-color: #2F303A;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container-footer {
-    height: 463px;
-  }
-}
-
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -2018,6 +2012,8 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -2027,7 +2023,6 @@ img {
             align-items: baseline;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    position: relative;
   }
 }
 
@@ -2322,15 +2317,6 @@ img {
             justify-content: center;
     align-items: center;
     margin-top: 60px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .form-footer {
-    position: absolute;
-    top: 109px;
-    left: 220px;
-    margin-top: 70px;
   }
 }
 
