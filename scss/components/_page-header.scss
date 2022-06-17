@@ -44,8 +44,10 @@
 
   border:none;
   background-color:transparent;
-  z-index: 100;
+  z-index: 1000;
   cursor: pointer;
+  position: relative;
+
 
   &:hover,
   &:focus {
@@ -227,7 +229,8 @@ transform: rotate(90deg);
 }
 .container-navigation {
   @media screen and (max-width: 767px){
-    padding: 15px; 
+    padding: 10px;
+    position: relative; 
   }
 }
 

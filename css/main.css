@@ -411,8 +411,9 @@ img {
 .menu-button {
   border: none;
   background-color: transparent;
-  z-index: 100;
+  z-index: 1000;
   cursor: pointer;
+  position: relative;
 }
 
 .menu-button:hover, .menu-button:focus {
@@ -624,7 +625,8 @@ img {
 
 @media screen and (max-width: 767px) {
   .container-navigation {
-    padding: 15px;
+    padding: 10px;
+    position: relative;
   }
 }
 
