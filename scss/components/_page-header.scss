@@ -44,7 +44,7 @@
 
   border:none;
   background-color:transparent;
-  z-index: 1500;
+  z-index: 100;
   cursor: pointer;
 
   &:hover,
@@ -98,6 +98,7 @@ color: #757575;
 
   &.is-open {
     display: block;
+    z-index: 100;
   }
 }
 
@@ -186,7 +187,7 @@ color: #2196F3;
 }
 
 .container-mobile__menu {
-  z-index: 500;
+  z-index: 100;
 }
 
 // біфор для силок навігації мобільного меню
@@ -227,7 +228,6 @@ transform: rotate(90deg);
 .container-navigation {
   @media screen and (max-width: 767px){
     padding: 15px; 
-    margin-right: auto;
   }
 }
 
