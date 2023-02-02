@@ -1,31 +1,28 @@
-
 /* Логотип компанії */
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 
   color: $blue-cl;
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .logo-header {
-  @media screen and (max-width:767px) {
-   color: $black-cl;
-margin-right: 0;}
-  @media screen and (min-width:768px) {
-  color: $black-cl;
-  margin-right: 70px;}
+  @media screen and (max-width: 767px) {
+    color: $black-cl;
+    margin-right: 0;
+  }
+  @media screen and (min-width: 768px) {
+    color: $black-cl;
+    margin-right: 70px;
+  }
 }
 
 // логотип футер//
 
 .footer-logo-adress {
-
   margin-right: 70px;
 }
-
-

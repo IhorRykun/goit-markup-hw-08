@@ -1,6 +1,6 @@
 /* соціальні мережі команди */
 .team-social__list {
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     flex-wrap: wrap;
   }
   display: flex;
@@ -10,14 +10,14 @@
 
 .team-social__item {
   margin-left: 10px;
-  max-width:450px;
+  max-width: 450px;
 
   &:first-child {
-  margin-left: 0px;
-}
+    margin-left: 0px;
+  }
 }
 .team-social__icon {
-  fill:$white-grey;
+  fill: $white-grey;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -26,7 +26,6 @@
   fill: $white-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .team-social__link {
   display: flex;
@@ -38,27 +37,26 @@
   background-color: rgba(255, 255, 255, 0.1);
   text-decoration: none;
   &:hover,
-&:focus {
-  background-color:$blue-cl;
-  transform: scale(1.4);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  &:focus {
+    background-color: $blue-cl;
+    transform: scale(1.4);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .svg-item {
   margin-left: 10px;
-&:first-child {
-  margin-left: 0px;
+  &:first-child {
+    margin-left: 0px;
+  }
 }
-}
-
 
 .svg-white {
   fill: $white-cl;
 }
 
 .link-inst:hover {
-  background-color:$blue-cl;
+  background-color: $blue-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Соціальні мережі футеру */
@@ -74,21 +72,21 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
   &:hover,
-&:focus {
-  background-color:$blue-cl;
-  transform: scale(1.4);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  &:focus {
+    background-color: $blue-cl;
+    transform: scale(1.4);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .link-svg:hover .socials-svg,
 .link-svg:focus .socials-svg {
-  fill:$white-cl;
+  fill: $white-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-svg:focus .socials-svg {
-  fill:$white-cl;
+  fill: $white-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
